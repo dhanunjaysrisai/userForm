@@ -1,0 +1,43 @@
+*{
+    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+#inputFeilds{
+    margin-inline-start: 500px;
+}
+#name{
+    margin-inline-start:105px;
+    border: 1.5px double plum;
+    border-radius: 10px;
+}
+#age{
+    margin-inline-start: 120px;
+    border: 1.5px double plum;
+    border-radius: 10px;
+}
+#mobileNumber{
+    margin-inline-start: 35px;
+    border: 1.5px double plum;
+    border-radius: 10px;
+}
+#mail{
+    margin-inline-start: 107px;
+    border: 1.5px double plum;
+    border-radius: 10px;
+}
+#submit{
+    margin-inline-start: 20%;
+}
+table { 
+    width: max-content;
+    /* border-collapse: collapse; */
+    font-size: small;
+    background-color: honeydew;
+    outline: 1px dashed dodgerblue;
+}
+
+table th, table td {
+    border: 1px solid dodgerblue;
+    text-align: center;
+    border-radius: 4px;
+}
