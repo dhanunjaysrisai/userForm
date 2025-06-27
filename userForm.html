@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <link rel="stylesheet" href="userForm.css">
+</head>
+<body style="background-color: aliceblue ;">
+    <br><h1 style="text-align: center; background-color: lavender; border-radius:100px;"><b><i>USER FORM</i></b></h1><br><br>
+    <div id="inputFeilds">
+        <form >
+            <label style="color: purple;"><b>Name :</b></label>
+            <input type="text" id="name"><br><br>
+            <label style="color: violet;"><b>Age :</b></label>
+            <input type="text" id="age"><br><br>
+            <label style="color: blueviolet;"><b>Mobile Number :</b></label>
+            <input type="text" id="mobileNumber"><br><br>
+            <label style="color: indigo;"><b>Email :  </b></label>
+            <input type="email" id="mail"><br><br>
+        </form>
+    <button type="button" onclick="submit()" id="submit">Submit</button>
+    </div><br>
+    <div >
+        <table id="table">
+            <thead>
+                <tr>
+                    <td><b>S.NO</b></td>
+                    <td><b>Name</b></td>
+                    <td><b>Age</b></td>
+                    <td><b>Mobile Number</b></td>
+                    <td><b>Email</b></td>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="userForm.js"></script>
+</body>
+</html>
